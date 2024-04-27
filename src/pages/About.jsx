@@ -32,7 +32,9 @@ const About = () => {
     return (
         <>
             <div className='w-full min-h-screen bg-[#3A3A1F] flex flex-row'>
-                <div className='w-[45vw] h-full py-28 sticky top-0'>
+            <div className='w-[5vw] h-full py-28 sticky top-0'>
+                </div>
+                <div className='w-[40vw] h-full py-28 sticky top-0'>
                     <div style={{ width: 450, height: 450 }} className='m-12'>
                         <CircularProgressbar
                             value={(currentStep / totalSteps) * 100}
@@ -62,6 +64,8 @@ const About = () => {
                             />
                         </div>
                     ))}
+                    <div className='w-[5vw] h-full py-28 sticky top-0'>
+                </div>
                     <div className='w-full h-[25vh]'></div>
                 </div>
             </div>

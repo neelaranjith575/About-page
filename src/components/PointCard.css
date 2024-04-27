@@ -1,0 +1,11 @@
+/* PointCard.css */
+
+.pointCard {
+    opacity: 0.5; /* Default opacity for inactive state */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.pointCard.active {
+    opacity: 1; /* Full opacity for active state */
+    color: white;
+}
